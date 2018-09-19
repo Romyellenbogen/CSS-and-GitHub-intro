@@ -8,6 +8,9 @@ body {
     color: #000; /* may be #000 or #fff */
     font-family: Calibri, Arial, sans-serif; /* keep */
 }
+
+
+/* --- ADD YOUR STYLES BELOW --- */
 aside{
   background: #EDBF85;
 }
@@ -30,12 +33,13 @@ article {
 figure{
   background: #4FB99F
 }
+/* --- add your PSEUDO CLASSES below this line --- */
 
 a:link{
-  color: #450003
+  color: #0F0F7B
 }
 a:visited{
-  color: #5C0002
+  color: #432546
 }
 a:focus{
   color: #94090D
@@ -45,28 +49,4 @@ a:hover{
 }
 a:active{
   color: #FF1D23
-}
-
-/* --- ADD YOUR STYLES BELOW --- */
-
-/* --- add your PSEUDO CLASSES below this line --- */
-
-figure{
-  background: #4FB99F
-}
-
-footer a:link{
-  color: #420000
-}
-footer a:visited{
-  color: #F03107
-}
-footer a:focus{
-  color: #C10202
-}
-footer a:hover{
-  color: #730000
-}
-footer a:active{
-  color: #F86D20
 }
